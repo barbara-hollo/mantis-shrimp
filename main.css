@@ -3,17 +3,22 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+ background-color: #444;
+ color: #999;
+}
+
 img {
   width: 100%;
-  height: auto;
 }
 
 body {
-  background-color: #444;
-  font-family: 'Raleway', sans-serif;
-  color: #999;
-  margin: 1rem; 
-  
+  font-family: 'Raleway', sans-serif; 
 }
 
 /* --- Typography and layout --- */
@@ -32,8 +37,27 @@ strong {
   color: #424141;
   font-size: 0.9rem;
   border-radius: .4rem;
+  margin-top: -3rem;
+  margin-right: 1rem;
 }
 
 h1 {
   font-size: 1.5rem;
+  position: relative;
+  top: -3.4rem;
+  text-align: center;
+  background:rgba(0,0,0,0.7);
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h2, p {
+  margin-left: 1rem;
+}
+
+p {
+  font-size: 0.7rem;
+  margin-right: 1rem;
 }
