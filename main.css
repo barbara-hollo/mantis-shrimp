@@ -1,0 +1,39 @@
+/* --- Base styles ---*/
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #444;
+  font-family: 'Raleway', sans-serif;
+  color: #999;
+  margin: 1rem; 
+  
+}
+
+/* --- Typography and layout --- */
+
+h1,h2 {
+  color: #fff;
+}
+
+strong {
+  color: #cecdcd;
+}
+
+.lead {
+  padding: 1rem;
+  background-color: #c6db20;
+  color: #424141;
+  font-size: 0.9rem;
+  border-radius: .4rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
