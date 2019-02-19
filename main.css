@@ -61,3 +61,24 @@ p {
   font-size: 0.7rem;
   margin-right: 1rem;
 }
+
+table, th, td, caption {
+  border: 0.5px solid #585757;
+  padding: .2rem;
+}
+
+table {
+  width: 90%;
+  text-align: center;
+  margin-left: 1rem;
+  border-collapse: collapse;
+}
+
+caption {
+  text-transform: uppercase;
+  font-size: .725rem;
+}
+
+th {
+  background-color: #585757;
+}
